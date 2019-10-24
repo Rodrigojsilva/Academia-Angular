@@ -1,0 +1,62 @@
+<br>
+
+<div class="container" id="teste">
+    <h1 class="text-center">Fale Conosco</h1>
+  <div class="row">
+    
+      <div class="col-12">
+          
+          <form class="mt-5" (ngSubmit)='onSubmit()' [formGroup]='formContato'>
+              <div class="form-group">
+                  <h4>Nome Completo:</h4>
+                  <input type="text" class="form-control contato" placeholder="Nome" formControlName='nome'[(ngModel)]="nome">
+                  
+              </div>
+          </form> 
+      </div>
+      <div class="col-6">
+          
+          <form class="mt-5" (ngSubmit)='onSubmit()' [formGroup]='formContato'>
+              <div class="form-group">
+                  <h4>Seu E-mail:</h4>
+                  <input type="email" class="form-control cadastro" placeholder="E-mail" formControlName='email'[(ngModel)]="email">
+                  
+              </div>
+          </form>
+      </div>   
+      <div class="col-6">
+          
+        <form class="mt-5" (ngSubmit)='onSubmit()' [formGroup]='formContato'>
+           <div class="form-group">
+               <h4>Telefone:</h4>
+                  <input type="text"  class="form-control contato" placeholder="Telefone" formControlName="telefone" (keypress)="mascara_telefone(this)" maxlength="14" [(ngModel)]="telefone">
+                      
+            </div>
+        </form>  
+      </div>
+      <div class="col-12">
+          
+          <form class="mt-5" (ngSubmit)='onSubmit()' [formGroup]='formContato'>
+             <div class="form-group">
+                 <h4>Sua mensagem:</h4>
+                    <textarea type="text"  class="form-control contato" placeholder="Deixe Sua Mensagem" formControlName="mensagem" [(ngModel)]="mensagem">
+                    </textarea>
+                        
+              </div>
+          </form>  
+        </div>
+        <div class="col-12">
+          
+            <form class="mt-5" (ngSubmit)='onSubmit()' [formGroup]='formContato'>
+               <div class="form-group">
+                <button type="submit" class="btn btn-enviar btn-lg" [disabled]="!formContato.valid"> 
+                    Enviar
+                </button>
+                          
+                </div>
+            </form>  
+          </div>        
+
+  </div>
+</div>
+<br>

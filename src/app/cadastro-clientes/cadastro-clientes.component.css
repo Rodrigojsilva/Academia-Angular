@@ -1,0 +1,32 @@
+.box-cadastro {
+    margin: 15px;
+    padding: 15px;
+}
+
+.cadastro {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(68, 219, 9);
+    border-radius: 0;
+    outline: none;
+    height: 60px;
+    
+}
+
+.btn-cadastro {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #055f14;
+    font-weight: bold;
+    box-shadow: 0 2px 5px -2px black;
+}
+
+#client{
+
+   background-color: rgb(27, 189, 89);
+   box-shadow: 0 10px 10px 4px rgb(8, 10, 10);
+   opacity: 0.9;
+
+}

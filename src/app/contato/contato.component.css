@@ -1,0 +1,16 @@
+
+#teste{
+    background-color: rgb(27, 189, 89);
+    box-shadow: 0 10px 10px 4px rgb(13, 48, 3);
+    opacity: 0.9;
+}
+
+.btn-enviar {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #055f14;
+    font-weight: bold;
+    box-shadow: 0 2px 5px -2px black;
+}

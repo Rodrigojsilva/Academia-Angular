@@ -1,0 +1,18 @@
+
+.rodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    background: black;
+    height: 6vh;
+    
+    
+    
+}
+
+.rodape p {
+    
+    padding-top: 8px;
+}

@@ -1,0 +1,20 @@
+h1{
+
+    font-family: New Roman;
+    font-size: 50pt;
+    color:rgb(19, 107, 23);
+    opacity: 10;
+    filter: alpha(opacity = 100);
+    
+}
+
+
+p{
+
+    font-family: New Roman;
+    font-size: 25pt;
+    color:rgb(136, 7, 7);
+    opacity: 10;
+    filter: alpha(opacity = 100);
+    
+}
